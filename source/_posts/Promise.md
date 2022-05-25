@@ -11,7 +11,7 @@ categories:
 sticky: 3
 description: "解析ES6中对异步操作的解决方案——Promise，并使用代码实现原生Promise的功能"
 keywords: "前端, JavaScript, ES6, Promise, 微任务"
-cover: https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1598980976412&di=67e9158ce3a92f30edc899040cf2dafb&imgtype=0&src=http%3A%2F%2Fpic.baike.soso.com%2Fp%2F20140710%2F20140710213836-955952945.jpg
+cover: https://res.cloudinary.com/practicaldev/image/fetch/s--8zpnP7e8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/vugz15i3sz2asv64clw3.jpg
 ---
 > ECMAscript 6 原生提供了 Promise 对象。Promise 对象代表了未来将要发生的事件，用来传递异步操作的消息。
 

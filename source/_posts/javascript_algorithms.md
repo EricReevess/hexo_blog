@@ -7,7 +7,7 @@ tags:
  - "学习笔记"
 categories: 
  - 算法与数据结构
-sticky: 2
+
 keywords: "算法与数据结构, 二叉树, 队列，栈"
 cover: https://pic4.zhimg.com/v2-6d4a0ccd09e126a8af0035327a9a235c_1440w.jpg?source=172ae18b
 ---
