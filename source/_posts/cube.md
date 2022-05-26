@@ -9,7 +9,7 @@ categories:
  - JavaScript
  
 keywords: "JavaScript, CSS, HTML "
-cover: https://gitee.com/EricReeves/proxy/raw/master/img/image-20200902163752855.png
+cover: https://raw.githubusercontent.com/EricReevess/proxy/master/img/image-20200902163752855.png
 ---
 使用CSS3的景深与三维变换+JavaScript实现一个可旋转的立方体（x,y两轴旋转）
 
@@ -82,7 +82,7 @@ body {
 
 在编写6个面之前，我们需要了解浏览器页面的3D坐标系
 
-![css3d](https://gitee.com/EricReeves/proxy/raw/master/img/coordinate_axis.png)
+![css3d](https://raw.githubusercontent.com/EricReevess/proxy/master/img/coordinate_axis.png)
 
 从+Z 到 -Z 方向，为用户看向浏览器屏幕的方向，意味着如果不开启3D变换，那么一切元素都是按照Z轴进行选择
 
@@ -148,7 +148,7 @@ body {
 
 如果你按照我上方的代码编写，你就会发现结果是这样的一个效果：
 
-![image-20200902163752855](https://gitee.com/EricReeves/proxy/raw/master/img/image-20200902163752855.png)
+![image-20200902163752855](https://raw.githubusercontent.com/EricReevess/proxy/master/img/image-20200902163752855.png)
 
 这是因为我们最终的目的是要使用@keyframe来添加进场动画，动画设置forward为播放一次，且在结束时停止，接下来编写6个css动画：
 
@@ -196,7 +196,7 @@ body {
 
 此时需要另外使用一个透明的覆盖层，改变z-index，覆盖整个wrap，用于旋转时的防止立方体元素获得鼠标焦点
 
-![image-20200902155629492](https://gitee.com/EricReeves/proxy/raw/master/img/image-20200902155629492.png)
+![image-20200902155629492](https://raw.githubusercontent.com/EricReevess/proxy/master/img/image-20200902155629492.png)
 
 现在布局以及样式都以及准备完毕了，接下来就进入到JavaScript的编写
 
@@ -274,5 +274,5 @@ function mouseup(ev) {
 
 到此，可旋转立方体基本功能已经完成，代码相对简单，只涉及到事件对象的信息获取以及对元素的样式操作
 
-最后附上Demo地址： [cube](https://EricReevess.github.io/proxy/web/Cube3Dv2/) (使用PC端浏览器打开)
+最后附上Demo地址： [cube](https://EricReevesss.github.io/proxy/web/Cube3Dv2/) (使用PC端浏览器打开)
 

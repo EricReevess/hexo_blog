@@ -9,7 +9,7 @@ tags:
 categories: 
  - 数据库
 keywords: "数据库, MongoDB"
-cover: https://gitee.com/EricReeves/proxy/raw/master/img/image-20200810170644701.png
+cover: https://raw.githubusercontent.com/EricReevess/proxy/master/img/image-20200810170644701.png
 ---
 ## MongoDB
 
@@ -17,7 +17,7 @@ cover: https://gitee.com/EricReeves/proxy/raw/master/img/image-20200810170644701
 * 集合：类似于数组，存放文档，不需要手动创建
 * 文档：数据的最小单位
 
-![image-20200810170644701](https://gitee.com/EricReeves/proxy/raw/master/img/image-20200810170644701.png)
+![image-20200810170644701](https://raw.githubusercontent.com/EricReevess/proxy/master/img/image-20200810170644701.png)
 
 常用命令
 

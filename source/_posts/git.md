@@ -6,10 +6,10 @@ tags:
 categories: 
  - Git
 keywords: "Git"
-cover: https://www.git-tower.com/blog/media/pages/posts/surviving-with-git-videos/-1284960509-1598943232/header.png
+cover: https://miro.medium.com/max/1400/1*oMC83-7fB27k1tTMxDfRaQ.png
 ---
 
-> Git 是 [Linus Torvalds](https://baike.baidu.com/item/Linus Torvalds/9336769) 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。 GitHub 作为全球最知名的代码管理平台  使用 git 分布式版本控制系统，为代码的托管提供了非常便捷的服务
+> Git 是Linux之父 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。 GitHub 作为全球最知名的代码管理平台  使用 git 分布式版本控制系统，为代码的托管提供了非常便捷的服务
 
 在使用Git之前，需要了解Git系统的相关机制
 

@@ -10,14 +10,14 @@ categories:
 
 description: "解析ES6中对异步操作的解决方案——Promise，并使用代码实现原生Promise的功能"
 keywords: "前端, JavaScript, DOM, CSS，事件"
-cover: https://gitee.com/EricReeves/proxy/raw/master/img/drag-resize.png
+cover: https://raw.githubusercontent.com/EricReevess/proxy/master/img/drag-resize.png
 ---
 
 # 封装一个简单的拖拽+变形的div的模块
 
 在编写拖拽与变形之前，我们需要知道DOM与元素大小相关的属性
 
-![elem-size](https://gitee.com/EricReeves/proxy/raw/master/img/EED5E2105E90D3063C11A0116A427264.png)
+![elem-size](https://raw.githubusercontent.com/EricReevess/proxy/master/img/EED5E2105E90D3063C11A0116A427264.png)
 
 需要的参数：被拖动的元素css选择器elemSelector，容器元素选择器wrapSelector
 

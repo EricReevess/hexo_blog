@@ -266,7 +266,7 @@ React
 
    3. 内联元素会覆盖浮动元素
 
-      ![image-20200711113458770](https://raw.githubusercontent.com/MrReeese/proxy/master/img/image-20200711113458770.png)
+      ![z-index](https://raw.githubusercontent.com/EricReevess/proxy/master/img/image-20200711113458770.png)
 
 ## 脱离文档流的方式：
 
@@ -511,7 +511,7 @@ React
 
 ## 事件队列、异步的微任务与宏任务
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200618180003244.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NoYW95b3VpcW5n,size_16,color_FFFFFF,t_70)
+![事件队列](https://img-blog.csdnimg.cn/20200618180003244.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L1NoYW95b3VpcW5n,size_16,color_FFFFFF,t_70)
 
 * 事件循环主线程的执行队列的读取是自动的，在这里异步任务会在Event Table中注册相应的回调函数。当指定的步骤完成了，Event Table会将注册了的回调函数推送到Event Queue，在Event Queue这里进行等待上场。当主线程内的任务执行完毕为空之后，就会到Event Queue读取相应的函数，进入主线程执行。这个过程不断重复构成Event Loop。
 

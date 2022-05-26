@@ -20,7 +20,7 @@ cover: https://res.cloudinary.com/practicaldev/image/fetch/s--8zpnP7e8--/c_imagg
 
 在解析promise的机制之前，我们需要掌握浏览器的事件循环，此处引用一张事件循环流程图
 
-![image](https://gitee.com/EricReeves/proxy/raw/master/img/event_loop.png)
+![image](https://raw.githubusercontent.com/EricReevess/proxy/master/img/event_loop.png)
 
 在上图中的最后2两行队列均为异步队列，可以观察到，每个宏任务队列后都跟随一个微任务队列，
 
@@ -60,12 +60,12 @@ setTimeout(()=>{
 
 但在promise的链式调用中，只需要将上一个处理的对象使用方法继续进行处理，且捕获异常和错误也比较方便
 
-![image-20200826225041424](https://gitee.com/EricReeves/proxy/raw/master/img/image-20200826225041424.png)
+![image-20200826225041424](https://raw.githubusercontent.com/EricReevess/proxy/master/img/image-20200826225041424.png)
 
 
 解决异步任务的最佳办法，是将promise对象配合 ES8 中新增的 async函数与await来操作结果，其中await会等待promise的值，并将之后的语句放入异步任务中执行
 
-![image-20200826225805992](https://gitee.com/EricReeves/proxy/raw/master/img/image-20200826225805992.png)
+![image-20200826225805992](https://raw.githubusercontent.com/EricReevess/proxy/master/img/image-20200826225805992.png)
 
 ## Promise/a+ 规范
 

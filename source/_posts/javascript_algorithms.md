@@ -893,18 +893,18 @@ inOrderTraverseThreadedNodes = () => {
 
    1. 如果变化后G为根节点，则将G以及整个子树都插入到内容为空的红黑树中，即G变为黑色
 
-   ![image-20200822114725471](https://gitee.com/EricReeves/proxy/raw/master/img/image-20200822114725471.png)
+   ![image-20200822114725471](https://raw.githubusercontent.com/EricReevess/proxy/master/img/image-20200822114725471.png)
 
 4. N是P的左子节点，P为红色，且P的右子节点不为空，U为黑色，G为黑色，此时需要将P变为黑色，G变为红色，再进行右旋转
 
-   ![image-20200822115425240](https://gitee.com/EricReeves/proxy/raw/master/img/image-20200822115425240.png)![image-20200822115551815](https://gitee.com/EricReeves/proxy/raw/master/img/image-20200822115551815.png)
+   ![image-20200822115425240](https://raw.githubusercontent.com/EricReevess/proxy/master/img/image-20200822115425240.png)![image-20200822115551815](https://raw.githubusercontent.com/EricReevess/proxy/master/img/image-20200822115551815.png)
 
 5. N是P的右子节点，P为红色，且P的左子节点B不为空，U为黑色，G为黑色，此时
 
    1. 以P为根进行左旋转
    2. 将G变为红色，N变为黑色，以G为根进行右旋转   
 
-   ![image-20200822123122453](https://gitee.com/EricReeves/proxy/raw/master/img/image-20200822123122453.png)
+   ![image-20200822123122453](https://raw.githubusercontent.com/EricReevess/proxy/master/img/image-20200822123122453.png)
 
 ## 内部排序
 

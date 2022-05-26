@@ -8,7 +8,7 @@ categories:
  - JavaScript
  
 keywords: "前端, JavaScript, 正则表达式"
-cover: https://codesource.io/wp-content/uploads/2020/01/Regular-Expressions-RegExp-in-Javascript.png
+cover: https://codesource.io/static/5e75f5a67a1abfbc4864baa935cb1286/3c931/Regular-Expressions-RegExp-in-Javascript.png
 ---
 
 ## 否定字符集
