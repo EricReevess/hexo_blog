@@ -274,5 +274,5 @@ function mouseup(ev) {
 
 到此，可旋转立方体基本功能已经完成，代码相对简单，只涉及到事件对象的信息获取以及对元素的样式操作
 
-最后附上Demo地址： [cube](https://EricReevesss.github.io/proxy/web/Cube3Dv2/) (使用PC端浏览器打开)
+最后附上Demo地址： [cube](https://EricReevess.github.io/proxy/web/Cube3Dv2/) (使用PC端浏览器打开)
 

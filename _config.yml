@@ -9,7 +9,7 @@ description: '一个前端noob'
 keywords: '前端'
 author: Eric Reeves
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -106,5 +106,4 @@ deploy:
   type: git
   repo:
         github: git@github.com:EricReevess/EricReevess.github.io.git
-        gitee: git@gitee.com:EricReeves/EricReeves.git
   branch: master

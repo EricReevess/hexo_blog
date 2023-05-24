@@ -12,7 +12,6 @@ keywords: "TypeScript, 协变， 逆变"
 cover: https://cdn.thenewstack.io/media/2022/01/10b88c68-typescript-logo.png
 
 ---
-# 协变与逆变
 
 ## 协变和逆变是什么？
 
