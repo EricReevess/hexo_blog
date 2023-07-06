@@ -8,7 +8,7 @@ tags:
 - "异步编程"
 categories: 
  - JavaScript
-sticky: 3
+# sticky: 3
 description: "解析ES6中对异步操作的解决方案——Promise，并使用代码实现原生Promise的功能"
 keywords: "前端, JavaScript, ES6, Promise, 微任务"
 cover: https://res.cloudinary.com/practicaldev/image/fetch/s--8zpnP7e8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/vugz15i3sz2asv64clw3.jpg
